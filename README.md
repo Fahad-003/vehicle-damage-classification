@@ -202,20 +202,20 @@ The final model was evaluated on the held-out test set.
 
 | Metric             |      Score |
 | ------------------ | ---------: |
-| **Test Accuracy**  | **77.71%** |
-| **Macro F1-Score** | **0.7808** |
+| **Test Accuracy**  | **75.00%** |
+| **Macro F1-Score** | **0.7473** |
 
 ### Class-wise Performance
 
-| Class            | Precision | Recall | F1-Score |
-| ---------------- | --------: | -----: | -------: |
-| `bumper_dent`    |      0.75 |   0.75 |     0.75 |
-| `bumper_scratch` |      0.67 |   0.80 |     0.73 |
-| `door_dent`      |      0.78 |   0.74 |     0.76 |
-| `door_scratch`   |      0.76 |   0.83 |     0.79 |
-| `glass_shatter`  |      0.89 |   0.89 |     0.89 |
-| `head_lamp`      |      0.85 |   0.81 |     0.83 |
-| `tail_lamp`      |      0.76 |   0.70 |     0.73 |
+| Class            | Precision | Recall | F1-Score | Support |
+| ---------------- | --------: | -----: | -------: | ------: |
+| `bumper_dent`    |      0.85 |   0.58 |     0.69 |      19 |
+| `bumper_scratch` |      0.48 |   0.77 |     0.59 |      13 |
+| `door_dent`      |      0.77 |   0.69 |     0.73 |      29 |
+| `door_scratch`   |      0.70 |   0.83 |     0.76 |      23 |
+| `glass_shatter`  |      0.89 |   0.85 |     0.87 |      20 |
+| `head_lamp`      |      0.71 |   0.75 |     0.73 |      20 |
+| `tail_lamp`      |      0.94 |   0.80 |     0.86 |      20 |
 
 > The model achieved its strongest performance on **glass shatter** and **head lamp** damage, while visually similar dent/scratch categories were comparatively more challenging.
 
@@ -292,8 +292,8 @@ Vehicle-Damage-Assessment/
 * Duplicate Detection and Data Cleaning
 * Class Imbalance Handling
 * Image Data Augmentation
-* **77.71% Test Accuracy**
-* **0.7808 Macro F1-Score**
+* **75.00% Test Accuracy**
+* **0.7473 Macro F1-Score**
 * Streamlit Deployment
 
 ---
