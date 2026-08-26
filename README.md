@@ -1,8 +1,6 @@
 # 🚗 Vehicle Damage Classification Using EfficientNetB0 Transfer Learning and Fine-Tuning
 
-<p align="center">
-  <img src="screenshots/home_page.png" alt="Vehicle Damage Classification" width="850">
-</p>
+
 
 An end-to-end **Deep Learning computer vision project** that classifies vehicle images into **7 different damage categories** using **EfficientNetB0 Transfer Learning and Fine-Tuning**. The project includes data cleaning, duplicate removal, class balancing, image augmentation, model evaluation, and deployment using **Streamlit**.
 
