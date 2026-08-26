@@ -10,7 +10,7 @@ An end-to-end **Deep Learning computer vision project** that classifies vehicle 
 
 # 🚀 Project Links
 
-* **🌐 Live Demo:** `YOUR_STREAMLIT_URL`
+* **🌐 Live Demo:** `https://vehicle-damage-classification.streamlit.app/`
 * **📊 Dataset:** [Car Damage Assessment Dataset](https://www.kaggle.com/datasets/hamzamanssor/car-damage-assessment)
 
 ---
